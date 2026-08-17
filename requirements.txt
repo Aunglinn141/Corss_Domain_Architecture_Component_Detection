@@ -1,0 +1,10 @@
+# Install an Ultralytics build that exposes the YOLO26 and OBB26 modules used by
+# configs/yolo26m-p2-c2psa.yaml. Pin the exact version used for your experiments
+# before publishing a reproducibility release.
+ultralytics
+torch
+torchvision
+numpy
+pyyaml
+opencv-python
+

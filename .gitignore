@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Data and generated runs
+data/
+datasets/
+runs/
+outputs/
+*.cache
+
+# Large model artifacts are released separately from source code.
+*.pt
+*.pth
+*.onnx
+*.engine
+weights/*.pt
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
